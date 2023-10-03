@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bulb on & off</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div id="container">
+      
+        <img id="onbulb" class="hide" src="pic_bulbon.gif">
+        <img id="offbulb"  src="pic_bulboff.gif">
+        <button id="btn">On</button><!DOCTYPE html>
+        <button id="offbtn" class="hide">Off</button>
+    </div>
+    <script>
+        const offBulb = document.getElementById("offbulb");
+        const onBulb = document.getElementById("onbulb");
+        const button = document.getElementById("btn");
+        const offbutton = document.getElementById("offbtn");
+        button.addEventListener('click', () => {
+            offBulb.classList.toggle('hide');
+            onBulb.classList.toggle('hide');
+        });
+    </script>
+</body>
+</html>
+

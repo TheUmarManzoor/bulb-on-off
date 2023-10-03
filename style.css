@@ -1,0 +1,39 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    margin-top: 100px;
+}
+#offbulb{
+    position:absolute;
+}
+#onbulb{
+    position:absolute;
+    
+}
+.hide{
+    display: none;
+    position: absolute;
+}
+.hide{
+    display: none;
+    position:absolute;
+}
+
+#btn {
+	display: flex;
+	/* margin: 50px; */
+	position: absolute;
+	top: 200px;
+
+	outline: none;
+	padding: 5px 14px;
+	font-size: 16px;
+	text-transform: capitalize;
+	background: #0707ca;
+	color: white;
+	border: none;
+	border-radius: 6px;
+}
+
